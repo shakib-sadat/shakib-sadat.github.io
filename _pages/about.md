@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# 🖋️ About Me
+## 🖋️ About Me
 
 🧑🏻‍🎓 Computer Science and Engineering Graduate from AIUB.
 
