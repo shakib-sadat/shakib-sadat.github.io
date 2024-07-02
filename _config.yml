@@ -21,7 +21,7 @@ repository: "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "rsz_profile_2.png"
+  avatar: "profile_2.jpg"
   name: "Shakib Sadat Shanto"
   pronouns: "he/him" # example: "she/her"
   bio: "An AI enthusiast, a researcher, and a learner."
@@ -43,8 +43,8 @@ author:
   bitbucket: # Username - Update with your username on the site
   codepen: # Username
   dribbble: # Username
-  github: "https://github.com/shakib-sadat"
-  kaggle: "https://www.kaggle.com/shakibsadat"
+  github: "shakib-sadat"
+  kaggle: "shakibsadat"
   stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
@@ -57,10 +57,10 @@ author:
   keybase: # Username
   instagram: # Username
   lastfm: # Username
-  linkedin: "https://www.linkedin.com/in/shakib-sadat-shanto-22b982211/"
+  linkedin: "shakib-sadat-shanto-22b982211/"
   mastodon: # URL
   medium: # URL
-  pinterest: "https://www.pinterest.com/shakibsss080/"
+  pinterest: ## Username
   soundcloud: # Username
   steam: # Username
   telegram: # URL
