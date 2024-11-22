@@ -9,11 +9,11 @@ redirect_from:
 
 ## About Me
 
-I am a Research Assistant at [Elite Lab](https://www.elitelab.ai).
+I am a Research Assistant at <a href="https://www.elitelab.ai" target="_blank" rel="noopener noreferrer">Elite Lab</a>.
 
 My research interests include NLP, Generative AI, LLM, Explainable AI, and Educational Technology.
 
-I earned my Bachelor of Science in Computer Science and Engineering from the American International University-Bangladesh in January 2024. Before graduation, I worked as a Research Assistant at AIUB under the supervision of [Dr. Akinul Islam Jony](https://www.researchgate.net/profile/Akinul_Jony).
+I earned my Bachelor of Science in Computer Science and Engineering from the American International University-Bangladesh in January 2024. Before graduation, I worked as a Research Assistant at AIUB under the supervision of <a href="https://www.linkedin.com/in/drakinulislamjony/" target="_blank" rel="noopener noreferrer">Dr. Akinul Islam Jony</a>.
 
 ## Recent News
 
