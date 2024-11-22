@@ -5,8 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Publications
-
 ### Peer-reviewed Conference Papers
 
 - **⟨C1⟩** Morol, Md Kishor, **Shanto, Shakib Sadat**, Ahmed, Zishan, & Reza, Ahmed Shakib. (2024). MultiLangMemeNet: A unified multimodal approach for cross-lingual meme sentiment analysis. _Proceedings of the 23rd International Conference on Machine Learning and Applications – ICMLA 2024_, Miami, Florida. [Accepted] [Equal Contribution] [Code](https://github.com/shakib-sadat/MultiLangMemeNet)
@@ -41,7 +39,7 @@ author_profile: true
 
 ### Under Review
 
-- **⟨U1⟩** Ahmed, Zishan, **Shanto, Shakib Sadat**, et al. (2024). Unlocking Sentiment Analysis Potential for Low-Resource Bangla Language by Fine-Tuning LLaMA Model. _27th International Conference on Computer and Information Technology (ICCIT)_. [Under Review] [Equal Contribution]
+- **⟨U1⟩** Ahmed, Zishan, **Shanto, Shakib Sadat** & Jony, Akinul Islam. (2024). Unlocking Sentiment Analysis Potential for Low-Resource Bangla Language by Fine-Tuning LLaMA Model. _27th International Conference on Computer and Information Technology (ICCIT)_. [Under Review] [Equal Contribution]
 
 - **⟨U2⟩** **Shanto, Shakib Sadat**, Reza, Ahmed Shakib, Islam, Safwan, et al. (2024). From pixels to diagnosis: An innovative EfficientNetB3 approach for interpreting lung and colon cancer histopathology. _27th International Conference on Computer and Information Technology (ICCIT)_. [Under Review]
 
