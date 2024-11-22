@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Publications"
-    url: https://scholar.google.com/citations?user=twShbgIAAAAJ&hl=en
+    url: /publications/
 
   # - title: "Talks"
   #   url: /talks/
@@ -16,7 +16,7 @@ main:
   #   url: /year-archive/
 
   - title: "CV"
-    url: /files/Shakib-Sadat-Shanto-Resume.pdf
+    url: https://drive.google.com/file/d/19q9fNhqdGN_mEVevf-TqkCHzvghj-oXy/view?usp=sharing
 
   # - title: "Guide"
   #   url: /markdown/
