@@ -225,10 +225,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _hobbies
   - scope:
       path: ""
-      type: teaching
+      type: hobbies
     values:
       layout: single
       author_profile: true
