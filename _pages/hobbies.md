@@ -5,9 +5,9 @@ permalink: /hobbies/
 author_profile: true
 ---
 
-**Pets**
+**Pets** 🐾
 
-I love animals, particularly cats. I have a pet cat named "Tuni" and a pet bird named "Tuktuki."
+I absolutely adore animals, especially cats! My furry friend, _Tuni_, is the queen of the house, while _Tuktuki_, my feathered companion, keeps things chirpy and fun. Life is never boring with these two around! 🐦🐱
 
 <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 20px;">
   <div style="text-align: center;">
@@ -19,3 +19,13 @@ I love animals, particularly cats. I have a pet cat named "Tuni" and a pet bird 
     <p style="font-size: small;"><strong>Tuni the Cat</strong></p>
   </div>
 </div>
+
+**Hobbies** 🎮🎶⚽🎌
+
+**Gaming** 🎮: In my downtime, I love playing video games! Whether it’s taming the Wild West in _RDR2 Online_, exploring _Genshin Impact_, or scoring big in _FIFA_!
+
+**Music** 🎵: My playlist is all about vibes! From indie rock to 80s classics and mellow tunes, I’m a sucker for bands like _Dads in the Park_, _Embers in the Snow_, _The Paper Kites_, and _Summer Salt_. Their songs are pure magic!
+
+**Football** ⚽: I bleed red—_Liverpool red_! A proud and passionate supporter of the Reds. _#YNWA_ forever!
+
+**Anime** 🎌: Certified anime fanatic here! My all-time favorite? The masterpiece that is _Full Metal Alchemist: Brotherhood_. Nothing beats the feels and epic storytelling of this gem.
