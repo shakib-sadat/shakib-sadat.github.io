@@ -5,17 +5,19 @@ permalink: /hobbies/
 author_profile: true
 ---
 
-# Pets
+<div style="font-size: 1.5em; font-weight: bold; margin-bottom: 10px;">
+  Pets
+</div>
 
 I love animals, particularly cats. I have a pet cat named "Tuni" and a pet bird named "Tuktuki."
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="text-align: center;">
-    <img src="/mnt/data/IMG20200331185227.jpg" alt="Tuktuki the Bird" style="width: 300px; height: auto;">
-    <p><strong>Tuktuki the Bird</strong></p>
+    <img src="D:\VS Code\Workspace\shakib-sadat.github.io\images\IMG20200331185227.jpg" alt="Tuktuki the Bird" style="width: 200px; height: auto;">
+    <p style="font-size: small;"><strong>Tuktuki the Bird</strong></p>
   </div>
   <div style="text-align: center;">
-    <img src="/mnt/data/1000016801-01.jpg" alt="Tuni the Cat" style="width: 300px; height: auto;">
-    <p><strong>Tuni the Cat</strong></p>
+    <img src="D:\VS Code\Workspace\shakib-sadat.github.io\images\1000016801-01.jpg" alt="Tuni the Cat" style="width: 200px; height: auto;">
+    <p style="font-size: small;"><strong>Tuni the Cat</strong></p>
   </div>
 </div>
