@@ -19,6 +19,12 @@ author_profile: true
 
 - **⟨C6⟩** Reza, Ahmed Shakib, Morol, Md Kishor, **Shanto, Shakib Sadat**, Ahmed, Zishan, & Jubair, Md Abdullah Al. (2024). Acoustic analysis of speech for gender and age classification using CNN and machine learning techniques. _Proceedings of the 3rd International Conference on Computing Advancements – ICCA 2024_. ACM. [Accepted] [Link](https://www.researchgate.net/publication/384668048_Acoustic_Analysis_of_Speech_for_Gender_and_Age_Classification_Using_CNN_and_Machine_Learning_Techniques)
 
+- **⟨C7⟩** Ahmed, Zishan, **Shanto, Shakib Sadat** & Jony, Akinul Islam. (2024). Unlocking Sentiment Analysis Potential for Low-Resource Bangla Language by Fine-Tuning LLaMA Model. _27th International Conference on Computer and Information Technology (ICCIT)_. [Under Review] [Equal Contribution]
+
+- **⟨C8⟩** **Shanto, Shakib Sadat**, Reza, Ahmed Shakib, Islam, Safwan, et al. (2024). From pixels to diagnosis: An innovative EfficientNetB3 approach for interpreting lung and colon cancer histopathology. _27th International Conference on Computer and Information Technology (ICCIT)_. [Under Review]
+
+- **⟨C9⟩** Rubiat, Sharmin, Momu, **Shanto, Shakib Sadat**, & Ahmed, Zishan. (2024). A Comprehensive Approach to Deepfake Audio Detection: Using Feature Fusion and Deep Learning. _27th International Conference on Computer and Information Technology (ICCIT)_. [Under Review]
+
 ### Peer-reviewed Journal Papers
 
 - **⟨J1⟩** **Shanto, Shakib Sadat**, Ahmed, Zishan, Hossain, Nisma, Roy, Auditi, & Jony, Akinul Islam. (2023). Binary vs. multiclass sentiment classification for Bangla e-commerce product reviews: A comparative analysis of machine learning models. _International Journal of Information Engineering and Electronic Business (IJIEEB)_, 15(6), 1-10. [Link](https://www.mecs-press.org/ijieeb/ijieeb-v15-n6/v15n6-4.html)
@@ -37,10 +43,8 @@ author_profile: true
 
 - **⟨J8⟩** Ahmed, Zishan, & **Shanto, Shakib Sadat**. (2024). Performance analysis of YOLO architectures for surgical waste detection in post-COVID-19 medical waste management. _Malaysian Journal of Science and Advanced Technology_, 1-9. [Link](https://mjsat.com.my/index.php/mjsat/article/view/232)
 
+
+
 ### Under Review
 
-- **⟨U1⟩** Ahmed, Zishan, **Shanto, Shakib Sadat** & Jony, Akinul Islam. (2024). Unlocking Sentiment Analysis Potential for Low-Resource Bangla Language by Fine-Tuning LLaMA Model. _27th International Conference on Computer and Information Technology (ICCIT)_. [Under Review] [Equal Contribution]
 
-- **⟨U2⟩** **Shanto, Shakib Sadat**, Reza, Ahmed Shakib, Islam, Safwan, et al. (2024). From pixels to diagnosis: An innovative EfficientNetB3 approach for interpreting lung and colon cancer histopathology. _27th International Conference on Computer and Information Technology (ICCIT)_. [Under Review]
-
-- **⟨U3⟩** Rubiat, Sharmin, Momu, **Shanto, Shakib Sadat**, & Ahmed, Zishan. (2024). A Comprehensive Approach to Deepfake Audio Detection: Using Feature Fusion and Deep Learning. _27th International Conference on Computer and Information Technology (ICCIT)_. [Under Review]

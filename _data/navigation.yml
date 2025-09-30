@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://scholar.google.com/citations?user=twShbgIAAAAJ&hl=en
 
   # - title: "Talks"
   #   url: /talks/
 
   - title: "CV"
-    url: https://drive.google.com/file/d/19q9fNhqdGN_mEVevf-TqkCHzvghj-oXy/view?usp=sharing
+    url: https://drive.google.com/file/d/10kRcKpzJxYmMDOsZvt9Ja2uJb6-pK2Mu/view?usp=drive_link
 
   - title: "Hobbies & Others"
     url: /hobbies/
