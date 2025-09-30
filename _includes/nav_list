@@ -14,7 +14,12 @@
             {% assign domain = base_path %}
           {% endif %}
 
-          <a href="{{ domain }}{{ nav.url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+          <!-- <a href="{{ domain }}{{ nav.url }}"><span class="nav__sub-title">{{ nav.title }}</span></a> -->
+          <!-- filepath: d:\VS Code\Workspace\shakib-sadat.github.io\_includes\nav_list -->
+          <a href="{{ domain }}{{ nav.url }}"
+            {% if nav.new_tab %}target="_blank" rel="noopener"{% endif %}>
+            <span class="nav__sub-title">{{ nav.title }}</span>
+          </a>
         {% else %}
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
