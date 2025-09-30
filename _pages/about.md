@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I working as a Lead Researcher at <a href="https://www.elitelab.ai" target="_blank" rel="noopener noreferrer">Elite Lab</a>.
+I'm working as a Lead Researcher at <a href="https://www.elitelab.ai" target="_blank" rel="noopener noreferrer">Elite Lab</a>.
 
 My research interests include NLP, Generative AI, Educational Technology, LLM and Explainable AI.
 
