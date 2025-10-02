@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# **Welcome to my personal page!!  😀😀**
+**Welcome to my personal page!!  😀😀**
 
 ## About Me
 
