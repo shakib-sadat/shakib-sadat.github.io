@@ -1,19 +1,21 @@
 ---
 permalink: /
-title: "Welcome to my personal page!!!"
+title: 
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
+# **Welcome to my personal page!!  😀😀**
+
 ## About Me
 
 I'm working as a Lead Researcher at <a href="https://www.elitelab.ai" target="_blank" rel="noopener noreferrer">Elite Lab</a>.
 
-My research interests include NLP, Generative AI, Educational Technology, LLM and Explainable AI.
+My research interests include **NLP**, **Generative AI**, **Educational Technology**, **LLM** and **Explainable AI**.
 
-I earned my Bachelor of Science in Computer Science and Engineering from the American International University-Bangladesh in January 2024. Before graduation, I worked as a Research Assistant at AIUB under the supervision of <a href="https://www.researchgate.net/profile/Akinul_Jony" target="_blank" rel="noopener noreferrer">Dr. Akinul Islam Jony</a>.
+I earned my Bachelor of Science in Computer Science and Engineering from the American International University-Bangladesh in January 2024. Before graduation, I worked as a Research Assistant at AIUB under the supervision of <a href="https://recerca.uoc.edu/investigadores/1243512/detalle" target="_blank" rel="noopener noreferrer">Dr. Akinul Islam Jony</a>.
 
 ## Recent News
 
