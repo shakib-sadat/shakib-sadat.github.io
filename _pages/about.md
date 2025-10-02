@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: 
+title: Welcome to my personal page!!  😀😀
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-**Welcome to my personal page!!  😀😀**
 
 ## About Me
 
