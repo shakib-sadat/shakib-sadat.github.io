@@ -1,0 +1,96 @@
+{
+  "publications": [
+    {
+      "title": "The Generative AI Landscape in Education: Mapping the Terrain of Opportunities, Challenges and Student Perception",
+      "authors": [
+        "Zishan Ahmed",
+        "<b>Shakib Sadat Shanto</b>",
+        "M. Rime",
+        "M. Morol",
+        "N. Fahad",
+        "M. Hossen"
+      ],
+      "venue": "IEEE Access (2024)",
+      "thumbnail": "images/thumbs/img-3.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://ieeexplore.ieee.org/abstract/document/10681094/"
+      }
+    },
+    {
+      "title": "Generative AI for Programming Education: Can ChatGPT Facilitate the Acquisition of Fundamental Programming Skills for Novices?",
+      "authors": [
+        "<b>Shakib Sadat Shanto</b>",
+        "Zishan Ahmed",
+        "Akinul Islam Jony"
+      ],
+      "venue": "ACM (2025)",
+      "thumbnail": "images/thumbs/img-3.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://dl.acm.org/doi/full/10.1145/3723178.3723268"
+      }
+    },
+    {
+      "title": "Interpretable Ensemble Learning Approach for Predicting Student Adaptability in Online Education Environments",
+      "authors": [
+        "<b>Shakib Sadat Shanto</b>",
+        "Akinul Islam Jony"
+      ],
+      "venue": "Knowledge (2025)",
+      "thumbnail": "images/thumbs/img-3.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://www.mdpi.com/2673-9585/5/2/10"
+      }
+    },
+    {
+      "title": "A proposed framework for achieving higher levels of outcome-based learning using generative AI in education",
+      "authors": [
+        "<b>Shakib Sadat Shanto</b>",
+        "Zishan Ahmed",
+        "Akinul Islam Jony"
+      ],
+      "venue": "Educational Technology Quarterly (2025)",
+      "thumbnail": "images/thumbs/img-3.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://acnsci.org/journal/index.php/etq/article/view/788"
+      }
+    },
+    {
+      "title": "Potentiality of generative AI tools in higher education: Evaluating ChatGPT's viability as a teaching assistant for introductory programming courses",
+      "authors": [
+        "Zishan Ahmed",
+        "<b>Shakib Sadat Shanto</b>",
+        "Akinul Islam Jony"
+      ],
+      "venue": "STEM Education (2024)",
+      "thumbnail": "images/thumbs/img-3.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://aimspress.com/article/doi/10.3934/steme.2024011?viewType=HTML"
+      }
+    },
+    {
+      "title": "PAIGE: A generative AI-based framework for promoting assignment integrity in higher education",
+      "authors": [
+        "<b>Shakib Sadat Shanto</b>",
+        "Zishan Ahmed",
+        "Akinul Islam Jony"
+      ],
+      "venue": "STEM Education (2023)",
+      "thumbnail": "images/thumbs/img-3.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://www.aimspress.com/article/doi/10.3934/steme.2023018"
+      }
+    }
+  ]
+}
