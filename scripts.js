@@ -222,3 +222,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+function playPronunciation() {
+    const audio = document.getElementById('nameAudio');
+    if (audio) {
+        audio.currentTime = 0; // Restart if clicked again quickly
+        audio.play();
+    }
+}

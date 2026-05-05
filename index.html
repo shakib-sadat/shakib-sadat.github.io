@@ -39,7 +39,16 @@
     </nav>
     <header>
             <div class="header-content">
-                <h1>Shakib Sadat Shanto</h1>
+                <div class="name-container">
+                    <h1>Shakib Sadat Shanto</h1>
+                    <button class="pronounce-btn" onclick="playPronunciation()" aria-label="Listen to name pronunciation">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                    <audio id="nameAudio">
+                        <source src="pronunciation.mp3" type="audio/mpeg">
+            
+                    </audio>
+                </div>
                 <p>Incoming CS PhD Student • University of Maine</p>
             <div style="margin-top: 20px; margin-bottom: 25px;">
                 
