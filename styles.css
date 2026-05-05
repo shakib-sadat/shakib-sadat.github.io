@@ -361,6 +361,36 @@ strong {
   color: var(--text-color);
 }
 
+/* =========================================
+   Fancy CV Button
+   ========================================= */
+.fancy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(135deg, var(--accent-color), #1e40af); /* Smooth blue gradient */
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border-radius: 50px; /* Pill shape */
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3); /* Glowing blue shadow */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid transparent;
+}
+
+.fancy-btn:hover {
+  transform: translateY(-4px) scale(1.02); /* Floats up and slightly expands */
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.45); /* Shadow gets larger on hover */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.fancy-btn i {
+  font-size: 1.1em;
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column-reverse;
