@@ -1,13 +1,15 @@
 :root {
   /* Modernized Color Palette */
-  --bg-color: #f9fafb; /* Soft off-white to make cards pop */
+  --bg-color: #f9fafb;
   --bg-card: #ffffff;
   --text-color: #1f2937;
   --text-secondary: #4b5563;
-  --accent-color: #2563eb; /* Strong, readable professional blue */
-  --accent-hover: #1d4ed8; /* Darker blue for hover states */
-  --accent-bg: rgba(37, 99, 235, 0.08); /* Soft blue background for tags/buttons */
+  --accent-color: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-bg: rgba(37, 99, 235, 0.08);
   --border-color: #e5e7eb;
+  --nav-bg: rgba(249, 250, 251, 0.9);
+  --pub-venue-bg: #f3f4f6;
   
   /* Elevated Shadows */
   --shadow-sm: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
@@ -15,6 +17,19 @@
   
   --animation-offset: 4px;
   --transition-time: 0.3s;
+}
+
+:root[data-theme="dark"] {
+  --bg-color: #0f172a;
+  --bg-card: #111827;
+  --text-color: #f3f4f6;
+  --text-secondary: #cbd5e1;
+  --accent-color: #60a5fa;
+  --accent-hover: #93c5fd;
+  --accent-bg: rgba(96, 165, 250, 0.16);
+  --border-color: #334155;
+  --nav-bg: rgba(15, 23, 42, 0.9);
+  --pub-venue-bg: #1f2937;
 }
 
 body {
@@ -27,6 +42,7 @@ body {
   color: var(--text-color);
   background-color: var(--bg-color);
   font-weight: 400;
+  transition: background-color var(--transition-time) ease, color var(--transition-time) ease;
 }
 
 header {
@@ -218,7 +234,7 @@ section {
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--text-secondary);
-  background-color: #f3f4f6;
+  background-color: var(--pub-venue-bg);
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
 }
@@ -331,21 +347,27 @@ footer {
 }
 
 /* Generic styles */
-a {
+main a,
+footer a,
+.publications-header a,
+.news-list a {
   color: var(--accent-color);
   text-decoration: none;
-  transition: color var(--transition-time) ease;
+  transition: color var(--transition-time) ease, transform var(--transition-time) ease;
 }
 
-a:hover {
+main a:hover,
+footer a:hover,
+.publications-header a:hover,
+.news-list a:hover {
   color: var(--accent-hover);
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 2px;
+  text-decoration: none;
+  transform: scale(0.97);
 }
 
 .pub-links a:hover, nav a:hover, .social-links-header a:hover {
-  text-decoration: none; /* Prevent underline on buttons */
+  text-decoration: none;
+  transform: scale(0.97);
 }
 
 ul {
@@ -417,14 +439,42 @@ strong {
 .navbar {
   position: sticky;
   top: 0;
-  background-color: rgba(249, 250, 251, 0.9); /* Matches your bg color with slight transparency */
-  backdrop-filter: blur(10px); /* Frosted glass effect */
+  background-color: var(--nav-bg);
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   z-index: 1000;
   border-bottom: 1px solid var(--border-color);
-  /* Pull out of body padding to stretch full width */
   margin: -2rem -2rem 2rem -2rem; 
   padding: 1rem 2rem;
+  transition: background-color var(--transition-time) ease, border-color var(--transition-time) ease;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-card);
+  color: var(--text-color);
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+  transition: all var(--transition-time) ease;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.theme-toggle .theme-icon {
+  font-size: 0.95rem;
+}
+
+.theme-toggle .theme-text {
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 .nav-container {
@@ -433,6 +483,14 @@ strong {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-left: auto;
 }
 
 .nav-logo {
@@ -487,8 +545,12 @@ strong {
 /* Navbar Mobile Responsiveness */
 @media (max-width: 768px) {
   .navbar {
-    margin: -1rem -1rem 2rem -1rem; /* Adjust for mobile body padding */
+    margin: -1rem -1rem 2rem -1rem;
     padding: 1rem;
+  }
+
+  .nav-actions {
+    margin-left: auto;
   }
   
   .hamburger {

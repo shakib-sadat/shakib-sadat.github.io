@@ -23,13 +23,19 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="nav-logo">Welcome!</a>
-            <ul class="nav-menu" id="nav-menu">
-                <li><a href="#about" class="nav-link">About Me</a></li>
-                <!-- <li><a href="#research" class="nav-link">Research</a></li> -->
-                <li><a href="#news" class="nav-link">News</a></li>
-                <li><a href="#publications" class="nav-link">Publications</a></li>
-                <li><a href="#miscellaneous" class="nav-link">Misc</a></li>
-            </ul>
+            <div class="nav-actions">
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <!-- <li><a href="#research" class="nav-link">Research</a></li> -->
+                    <li><a href="#news" class="nav-link">News</a></li>
+                    <li><a href="#publications" class="nav-link">Publications</a></li>
+                    <li><a href="#miscellaneous" class="nav-link">Misc</a></li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light and dark mode" aria-pressed="false">
+                    <i class="fas fa-moon theme-icon" aria-hidden="true"></i>
+                    <span class="theme-text">Dark</span>
+                </button>
+            </div>
             <div class="hamburger" id="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>

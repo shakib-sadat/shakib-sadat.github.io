@@ -6,6 +6,7 @@ let showingSelected = true;
 document.addEventListener('DOMContentLoaded', function() {
   // Load publications data
   loadPublications();
+  initializeTheme();
   
   // Initialize animation delays for sections
   const sections = document.querySelectorAll('section');
@@ -18,7 +19,48 @@ document.addEventListener('DOMContentLoaded', function() {
   if (toggleButton) {
     toggleButton.addEventListener('click', togglePublications);
   }
+
+  const themeToggleButton = document.getElementById('theme-toggle');
+  if (themeToggleButton) {
+    themeToggleButton.addEventListener('click', toggleTheme);
+  }
 });
+
+function initializeTheme() {
+  const savedTheme = localStorage.getItem('theme');
+  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+  applyTheme(theme);
+}
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+
+  const themeToggleButton = document.getElementById('theme-toggle');
+  if (!themeToggleButton) {
+    return;
+  }
+
+  const icon = themeToggleButton.querySelector('.theme-icon');
+  const label = themeToggleButton.querySelector('.theme-text');
+
+  themeToggleButton.setAttribute('aria-pressed', theme === 'dark');
+
+  if (icon) {
+    icon.className = theme === 'dark' ? 'fas fa-sun theme-icon' : 'fas fa-moon theme-icon';
+  }
+
+  if (label) {
+    label.textContent = theme === 'dark' ? 'Light' : 'Dark';
+  }
+}
+
+function toggleTheme() {
+  const currentTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+  const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('theme', nextTheme);
+  applyTheme(nextTheme);
+}
 
 // Load publications from JSON file
 function loadPublications() {
