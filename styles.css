@@ -391,22 +391,35 @@ strong {
   align-items: center;
   gap: 0.6rem;
   padding: 0.8rem 2rem;
-  background: linear-gradient(135deg, var(--accent-color), #1e40af); /* Smooth blue gradient */
+  background: linear-gradient(135deg, var(--accent-color), #1d4ed8);
   color: #ffffff;
   font-weight: 600;
   font-size: 0.95rem;
   text-decoration: none;
-  border-radius: 50px; /* Pill shape */
-  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3); /* Glowing blue shadow */
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.28);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 2px solid transparent;
+  border: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 .fancy-btn:hover {
-  transform: translateY(-4px) scale(1.02); /* Floats up and slightly expands */
-  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.45); /* Shadow gets larger on hover */
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
   color: #ffffff;
   text-decoration: none;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+:root[data-theme="dark"] .fancy-btn {
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+  color: #f8fafc;
+  box-shadow: 0 6px 18px rgba(96, 165, 250, 0.28);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+:root[data-theme="dark"] .fancy-btn:hover {
+  background: linear-gradient(135deg, #93c5fd, #60a5fa);
+  box-shadow: 0 10px 24px rgba(96, 165, 250, 0.35);
 }
 
 .fancy-btn i {
